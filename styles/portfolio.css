@@ -36,7 +36,8 @@
 .section-description{
  font-size: 18px;
  color: rgb(117, 117, 117);
- padding:15px 20px;
+ padding:20px 50px;
+
 }
 .text-center{
     text-align: center;
@@ -129,4 +130,50 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow:0px 6px 50px 0px rgba(0,0,0,0.06)  ;
+}
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.resume-column-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-subtitle{
+    font-size:20px ;
+    font-weight:600 ;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-subtitle{
+    color:#757575 ;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top:50px;
 }
